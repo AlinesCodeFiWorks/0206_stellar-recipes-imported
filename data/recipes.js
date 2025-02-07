@@ -2,38 +2,33 @@ const recipes = [
   {
     id: "1",
     title: "Spaghetti Carbonara",
-    description: "A classic Italian pasta dish with eggs, cheese, pancetta, and pepper.",
+    description:
+      "A classic Italian pasta dish with eggs, cheese, pancetta, and pepper.",
     ingredients: [
       "Spaghetti",
       "Eggs",
       "Parmesan Cheese",
       "Pancetta",
-      "Black Pepper"
+      "Black Pepper",
     ],
     steps: [
       "Cook spaghetti according to package instructions.",
       "In a bowl, whisk eggs and cheese.",
       "Cook pancetta until crispy.",
       "Combine spaghetti, pancetta, and egg mixture.",
-      "Serve with extra cheese and pepper."
-    ]
+      "Serve with extra cheese and pepper.",
+    ],
   },
   {
     id: "2",
     title: "Avocado Toast",
     description: "A quick and healthy breakfast option with avocado and toast.",
-    ingredients: [
-      "Bread",
-      "Avocado",
-      "Salt",
-      "Pepper",
-      "Lemon Juice"
-    ],
+    ingredients: ["Bread", "Avocado", "Salt", "Pepper", "Lemon Juice"],
     steps: [
       "Toast the bread to your liking.",
       "Mash avocado with salt, pepper, and lemon juice.",
-      "Spread avocado on toast and serve."
-    ]
+      "Spread avocado on toast and serve.",
+    ],
   },
   {
     id: "3",
@@ -45,20 +40,21 @@ const recipes = [
       "Heavy Cream",
       "Parmesan Cheese",
       "Garlic",
-      "Butter"
+      "Butter",
     ],
     steps: [
       "Cook fettuccine and set aside.",
       "Cook chicken until golden brown.",
       "Prepare Alfredo sauce with cream, garlic, butter, and cheese.",
       "Combine sauce with pasta and chicken.",
-      "Serve hot with extra cheese."
-    ]
+      "Serve hot with extra cheese.",
+    ],
   },
   {
     id: "4",
     title: "Caprese Salad",
-    description: "A fresh and simple Italian salad with mozzarella, tomatoes, and basil.",
+    description:
+      "A fresh and simple Italian salad with mozzarella, tomatoes, and basil.",
     ingredients: [
       "Fresh Mozzarella",
       "Tomatoes",
@@ -66,14 +62,14 @@ const recipes = [
       "Olive Oil",
       "Balsamic Glaze",
       "Salt",
-      "Pepper"
+      "Pepper",
     ],
     steps: [
       "Slice mozzarella and tomatoes.",
       "Layer slices with basil leaves.",
       "Drizzle with olive oil and balsamic glaze.",
-      "Sprinkle with salt and pepper."
-    ]
+      "Sprinkle with salt and pepper.",
+    ],
   },
   {
     id: "5",
@@ -88,20 +84,21 @@ const recipes = [
       "Eggs",
       "Vanilla Extract",
       "Baking Soda",
-      "Salt"
+      "Salt",
     ],
     steps: [
       "Preheat oven to 350°F (175°C).",
       "Mix wet and dry ingredients separately.",
       "Combine ingredients and fold in chocolate chips.",
       "Scoop dough onto baking sheet.",
-      "Bake for 10-12 minutes."
-    ]
+      "Bake for 10-12 minutes.",
+    ],
   },
   {
     id: "6",
     title: "Vegetable Stir Fry",
-    description: "A quick and healthy vegetable stir fry with soy sauce and garlic.",
+    description:
+      "A quick and healthy vegetable stir fry with soy sauce and garlic.",
     ingredients: [
       "Broccoli",
       "Carrots",
@@ -110,34 +107,35 @@ const recipes = [
       "Soy Sauce",
       "Garlic",
       "Ginger",
-      "Sesame Oil"
+      "Sesame Oil",
     ],
     steps: [
       "Heat sesame oil in a wok or skillet.",
       "Add garlic and ginger, sauté briefly.",
       "Add vegetables and stir fry until tender-crisp.",
       "Add soy sauce and toss to coat.",
-      "Serve hot over rice or noodles."
-    ]
+      "Serve hot over rice or noodles.",
+    ],
   },
   {
     id: "7",
     title: "Margherita Pizza",
-    description: "Classic pizza with fresh mozzarella, basil, and tomato sauce.",
+    description:
+      "Classic pizza with fresh mozzarella, basil, and tomato sauce.",
     ingredients: [
       "Pizza Dough",
       "Tomato Sauce",
       "Fresh Mozzarella",
       "Fresh Basil",
-      "Olive Oil"
+      "Olive Oil",
     ],
     steps: [
       "Preheat oven to 475°F (245°C).",
       "Roll out pizza dough.",
       "Spread tomato sauce evenly.",
       "Top with mozzarella slices and basil leaves.",
-      "Bake for 10-15 minutes until golden brown."
-    ]
+      "Bake for 10-15 minutes until golden brown.",
+    ],
   },
   {
     id: "8",
@@ -150,31 +148,26 @@ const recipes = [
       "Lettuce",
       "Tomatoes",
       "Cheddar Cheese",
-      "Sour Cream"
+      "Sour Cream",
     ],
     steps: [
       "Cook ground beef with taco seasoning.",
       "Warm taco shells in the oven.",
       "Assemble tacos with beef and toppings.",
-      "Serve with lime wedges."
-    ]
+      "Serve with lime wedges.",
+    ],
   },
   {
     id: "9",
     title: "Lemonade",
     description: "Refreshing homemade lemonade.",
-    ingredients: [
-      "Lemons",
-      "Sugar",
-      "Water",
-      "Ice"
-    ],
+    ingredients: ["Lemons", "Sugar", "Water", "Ice"],
     steps: [
       "Juice the lemons.",
       "Dissolve sugar in water to make a syrup.",
       "Mix lemon juice, syrup, and water.",
-      "Serve over ice."
-    ]
+      "Serve over ice.",
+    ],
   },
   {
     id: "10",
@@ -188,13 +181,13 @@ const recipes = [
       "Butter",
       "Sugar",
       "Baking Powder",
-      "Salt"
+      "Salt",
     ],
     steps: [
       "Mash bananas and mix with wet ingredients.",
       "Combine with dry ingredients to form batter.",
       "Cook pancakes on a griddle.",
-      "Serve with syrup and butter."
-    ]
-  }
+      "Serve with syrup and butter.",
+    ],
+  },
 ];
